@@ -13,6 +13,7 @@ print(보스턴.columns)
 # 독립변수, 종속변수 분리
 독립 = 보스턴[['crim', 'zn', 'indus', 'chas', 'nox', 'rm', 'age', 'dis', 'rad', 'tax',
           'ptratio', 'b', 'lstat']]
+#medv는 집값 중앙값
 종속 = 보스턴[['medv']]
 print(독립.shape, 종속.shape)
 
